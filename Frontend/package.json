@@ -1,0 +1,82 @@
+{
+  "name": "sugar-head",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@ethersproject/providers": "^5.7.2",
+    "@mui/lab": "^5.0.0-alpha.118",
+    "@mui/material": "^5.9.2",
+    "@mui/styled-engine-sc": "^5.8.0",
+    "@reduxjs/toolkit": "^1.9.2",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.11.45",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@web3-react/core": "^6.1.9",
+    "@web3-react/injected-connector": "^6.0.7",
+    "ahooks": "^3.7.4",
+    "axios": "^0.27.2",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "os-browserify": "^0.3.0",
+    "process": "^0.11.10",
+    "react": "^18.2.0",
+    "react-app-rewired": "^2.2.1",
+    "react-dom": "^18.2.0",
+    "react-phone-number-input": "^3.2.6",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.1",
+    "react-toastify": "^9.1.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.2",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "styled-components": "^5.3.5",
+    "typescript": "^4.7.4",
+    "web-vitals": "^2.1.4",
+    "web3": "^1.8.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.33.1",
+    "@typescript-eslint/parser": "^5.33.1",
+    "eslint": "^8.22.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "prettier": "^2.7.1"
+  },
+  "scripts": {
+    "start": "react-app-rewired start  --config-overrides webpack/webpack.config.dev.js",
+    "build": "react-app-rewired build  --config-overrides webpack/webpack.config.dev.js",
+    "production": "react-app-rewired build  --config-overrides webpack/webpack.config.prod.js",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
+  },
+  "config-overrides-path": "./webpack/webpack.config.dev.js",
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

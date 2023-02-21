@@ -1,0 +1,22 @@
+{
+  "mode": "PRODUCTION",
+  "useWebsockets": false,
+  "tokenAddress": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
+  "contractAddress": "0x990Ffa771f2723dEcaB8875545226CDDa652B3B9",
+  "chainId": 1,
+  "network": 1,
+  "chainName": "Ethereum Mainnet",
+  "chainNativeCurrency": { "name": "Ethereum", "symbol": "ETH", "decimals": 18 }, 
+  "chainRpcUrls": [
+      "wss://ws-nd-863-734-578.p2pify.com/9e8249567528ca2f8ddd003d646c4463",
+      "wss://ws-nd-834-035-099.p2pify.com/87acef9d7dd46e88da5b6fee2abebb47",
+      "wss://ws-nd-448-908-476.p2pify.com/eeea11a9ddaba4f4711106844fd2fa66",
+      "wss://ws-nd-653-299-450.p2pify.com/ffaf968e92c1f7ff0f5b304b8b175101"
+  ],
+  "chainBlockExplorerUrls": ["https://etherscan.io/"], 
+  "apiBaseURL": "https://app.gamium.world/api/v1/",
+  "landBuyEventToastTimeout": 5000,
+  "avaliabilityDate": "mar 13, 2022 00:00:00",
+  "maxTicketsPerTX": 3
+}
+

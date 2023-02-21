@@ -1,0 +1,17 @@
+{
+  "mode": "DEVEOLOPMENT",
+  "sugarHeadAddress": "0xA6d62A92e158D39a8cDD41ad926B5f98a1b9c63A",
+  "assetLockAddress": "0xDa65fED2d3fcC16E88f36cdC58A10b93dbBCBe47",
+  "chadinuAddress": "0xdb43e40FaC065416EACfB45A6f298EbF02Ab5D9A",
+  "dvdaAddress": "0xdb43e40FaC065416EACfB45A6f298EbF02Ab5D9A",
+  "chainId": 5,
+  "network": 5,
+  "chainName": "Goerli TestNet",
+  "chainNativeCurrency": { "name": "Ethereum", "symbol": "ETH", "decimals": 18 }, 
+  "chainRpcUrls": ["https://goerli.infura.io/v3/ee603d1d79434580aa5b29136e0b1992"],
+  "chainBlockExplorerUrls": ["https://goerli.etherscan.io/"], 
+  "apiBaseURL": "http://localhost:5000/api/",
+  "avaliabilityDate": "mar 13, 2022 00:00:00",
+  "maxTicketsPerTX": 3,
+  "totalSupply": 1200
+}
